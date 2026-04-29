@@ -25,6 +25,6 @@
 		<maintainer>LOMART</maintainer>
 		<maintainerurl>https://lomart.fr</maintainerurl>
 		<targetplatform name="joomla" version="((5\.(1|2|3|4))|(6\.*))"/>
-		<sha256>f9d740246c0d8856ec6c6b5acfb6d8ab585a182a63d6ed74c1501f45f24b903d</sha256>
+		<sha256>84230acdcab5f8fc99eb74d8b6537b06b384222053f9db61c1f9ed1ec2c09ac8</sha256>
 	</update>
 </updates>
