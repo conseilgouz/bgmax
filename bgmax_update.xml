@@ -1,0 +1,15 @@
+<updates>
+	<update>
+		<name>BgMax</name>
+		<element>mod_bgmax</element>
+		<type>module</type>
+		<version>4.0</version>
+		<downloads>
+			<downloadurl type="full" format="zip">http://lomart.fr/files/bgmax/update.php?file=mod_bgmax_4.zip</downloadurl>
+		</downloads>
+		<maintainer>LOMART</maintainer>
+		<maintainerurl>http://lomart.fr</maintainerurl>
+		<targetplatform name="joomla" version=".*"/>
+		<sha256>5A928222A8C226069D3984C513195D52ECFB14315E60C32AB8E013D75C3B423C</sha256>
+	</update>
+</updates>
