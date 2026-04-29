@@ -3,13 +3,28 @@
 		<name>BgMax</name>
 		<element>mod_bgmax</element>
 		<type>module</type>
-		<version>4.0</version>
+        <client>site</client>
+		<version>5.0</version>
 		<downloads>
-			<downloadurl type="full" format="zip">http://lomart.fr/files/bgmax/update.php?file=mod_bgmax_4.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://lomart.fr/files/bgmax/mod_bgmax_5.0.zip</downloadurl>
 		</downloads>
 		<maintainer>LOMART</maintainer>
-		<maintainerurl>http://lomart.fr</maintainerurl>
-		<targetplatform name="joomla" version=".*"/>
-		<sha256>5A928222A8C226069D3984C513195D52ECFB14315E60C32AB8E013D75C3B423C</sha256>
+		<maintainerurl>https://lomart.fr</maintainerurl>
+		<targetplatform name="joomla" version="((3\.10)|(4\.(0|1|2|3|4))|(5\.0))"/>
+		<sha256>f9d740246c0d8856ec6c6b5acfb6d8ab585a182a63d6ed74c1501f45f24b903d</sha256>
+	</update>
+	<update>
+		<name>BgMax</name>
+		<element>mod_bgmax</element>
+		<type>module</type>
+        <client>site</client>
+		<version>5.1</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://lomart.fr/files/bgmax/mod_bgmax_5.1.zip</downloadurl>
+		</downloads>
+		<maintainer>LOMART</maintainer>
+		<maintainerurl>https://lomart.fr</maintainerurl>
+		<targetplatform name="joomla" version="((5\.(1|2|3|4))|(6\.*))"/>
+		<sha256>f9d740246c0d8856ec6c6b5acfb6d8ab585a182a63d6ed74c1501f45f24b903d</sha256>
 	</update>
 </updates>
