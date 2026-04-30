@@ -485,7 +485,11 @@ class BgMaxHelper
             if (substr($site_base, -1) == "/") {
                 $site_base = substr($site_base, 0, -1);
             }
-            $bgmax["head"] = '<script type="text/javascript" src="'.$site_base.'/modules/mod_bgmax/bgMax.min.js"></script>';
+            
+            $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
+            $wa->registerAndUseScript('bgmaxjs', 'modules/mod_bgmax/assets/bgMax.min.js');
+
+            $bgmax["head"] = '';
 
             // Definir la couleur sous image
             if ($bodyColor) {

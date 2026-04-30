@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="module" version="5.0" client="site" method="upgrade">
     <name>BgMax</name>
-    <version>5.1.1</version>
+    <version>5.1.2</version>
     <creationDate>30-04-2026</creationDate>
     <firstDate>17-03-2011</firstDate>
     <author>Lomart</author>

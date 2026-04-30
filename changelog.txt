@@ -1,3 +1,6 @@
+5.1.2 (avril 2026)
+- utilisation des webassets pour charger bgmax.js
+
 5.1.1 (avril 2026)
 - compatibilité Joomla 5/6, PHP 8.5
 - ajout de l'affichage de la version
