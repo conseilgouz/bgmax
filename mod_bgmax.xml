@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="module" version="5.0" client="site" method="upgrade">
     <name>BgMax</name>
-    <version>5.1</version>
-    <creationDate>29/04/2026</creationDate>
+    <version>5.1.1</version>
+    <creationDate>30-04-2026</creationDate>
     <firstDate>17-03-2011</firstDate>
     <author>Lomart</author>
     <authoremail>lomart@lomart.fr</authoremail>
@@ -26,7 +26,8 @@
     </languages>
     <config>
         <fields name="params" >
-            <fieldset name="basic"  addfieldpath="/modules/mod_bgmax/elements/">
+            <fieldset name="basic"  addfieldprefix="Lomart\Module\Bgmax\Site\Field">
+                <field name="version" type="Version"  marginright="1em" margintop="-3em" extension="mod_bgmax"/>
                 <field name="bgmaxDebug" type="list" default="0" label="Debug" description="DEBUG_DESC">
                     <option value="0">DEBUG_NO</option>
                     <option value="1">DEBUG_YES</option>
@@ -193,7 +194,7 @@
 	<scriptfile>install.php</scriptfile>
 	
     <updateservers>
-        <server type="extension" name="bgmax" priority="1">https://lomart.fr/files/bgmax/bgmax_update.xml
+        <server type="extension" name="bgmax" priority="1">https://raw.githubusercontent.com/conseilgouz/updates_github/master/bgmax_update.xml
         </server>
     </updateservers>
 
